@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f8f4f0;
+}
+
+header {
+  background-color: #754c24;
+  color: white;
+  padding: 1rem;
+}
+
+nav {
+  margin: 1rem;
+}
+
+nav button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.gallery img {
+  width: 250px;
+  margin: 10px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.hidden {
+  display: none;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  margin: auto;
+}
+
+input {
+  padding: 8px;
+}
+
+footer {
+  margin-top: 2rem;
+  background-color: #ddd;
+  padding: 1rem;
+}
+
+.feedback {
+  font-size: 0.9em;
+  margin-left: 8px;
+}
+
+.slideshow-img {
+  width: 350px;
+  height: 220px;
+  object-fit: cover;
+  margin: 0 10px;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+#prevSlide, #nextSlide {
+  background: #eee;
+  border: none;
+  font-size: 2em;
+  cursor: pointer;
+  padding: 0 15px;
+  border-radius: 50%;
+  transition: background 0.2s;
+}
+
+#prevSlide:hover, #nextSlide:hover {
+  background: #cce;
+}
